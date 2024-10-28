@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+.gallery img {
+    min-width: 0;
+    flex: 1 1 50%;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.gallery img:hover {
+    flex: 1 1 170%;
+    opacity: 1;
+    box-shadow: 1px 1px 1px black;
+}
